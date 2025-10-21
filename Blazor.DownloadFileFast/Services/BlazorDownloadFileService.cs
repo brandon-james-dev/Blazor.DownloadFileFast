@@ -22,7 +22,7 @@ internal class BlazorDownloadFileService : IBlazorDownloadFileService
         if (BlazorUtils.IsWASM)
         {
 #pragma warning disable CA1416
-            Task.Run(async () => await JSHost.ImportAsync("download.js", "/_content/BlazorDownloadFileFast/download7up.js"));
+            Task.Run(async () => await JSHost.ImportAsync("download.js", "../_content/BlazorDownloadFileFast/download7up.js"));
 #pragma warning restore CA1416
             return;
         }
