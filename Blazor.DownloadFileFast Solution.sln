@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.0.11205.157 d18.0
+VisualStudioVersion = 18.0.11205.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{33997DC9-84AA-47E3-BEB5-C418065DC503}"
 EndProject
@@ -33,6 +33,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.DownloadFileFast.Example_NET9", "Examples\Blazor.DownloadFileFast.Example_NET9\Blazor.DownloadFileFast.Example_NET9.csproj", "{FCC3D4A3-0A8D-507B-BBEE-5075B6B51E4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.DownloadFileFast.Example_NET10", "Examples\Blazor.DownloadFileFast.Example_NET10\Blazor.DownloadFileFast.Example_NET10.csproj", "{E56D051E-164B-44A6-BB03-55DD70BD73DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.DownloadFileFast.Example_NET10_Subdirectory.Server", "Examples\Blazor.DownloadFileFast.Example_NET10_Subdirectory.Server\Blazor.DownloadFileFast.Example_NET10_Subdirectory.Server.csproj", "{1A21AC74-76CF-4755-A8BD-419C93220193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.DownloadFileFast.Example_NET10_Subdirectory.Client", "Examples\Blazor.DownloadFileFast.Example_NET10_Subdirectory.Client\Blazor.DownloadFileFast.Example_NET10_Subdirectory.Client.csproj", "{E8F4365B-7A21-464C-B8CD-D846F1530A8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +80,14 @@ Global
 		{E56D051E-164B-44A6-BB03-55DD70BD73DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56D051E-164B-44A6-BB03-55DD70BD73DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56D051E-164B-44A6-BB03-55DD70BD73DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A21AC74-76CF-4755-A8BD-419C93220193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A21AC74-76CF-4755-A8BD-419C93220193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A21AC74-76CF-4755-A8BD-419C93220193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A21AC74-76CF-4755-A8BD-419C93220193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F4365B-7A21-464C-B8CD-D846F1530A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F4365B-7A21-464C-B8CD-D846F1530A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F4365B-7A21-464C-B8CD-D846F1530A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F4365B-7A21-464C-B8CD-D846F1530A8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +102,8 @@ Global
 		{5C24A50F-F7E9-85D5-23E3-65B2A39DE0E7} = {1D3B0899-8261-4023-B62E-F1A70CF0BBD8}
 		{FCC3D4A3-0A8D-507B-BBEE-5075B6B51E4E} = {1D3B0899-8261-4023-B62E-F1A70CF0BBD8}
 		{E56D051E-164B-44A6-BB03-55DD70BD73DF} = {1D3B0899-8261-4023-B62E-F1A70CF0BBD8}
+		{1A21AC74-76CF-4755-A8BD-419C93220193} = {1D3B0899-8261-4023-B62E-F1A70CF0BBD8}
+		{E8F4365B-7A21-464C-B8CD-D846F1530A8C} = {1D3B0899-8261-4023-B62E-F1A70CF0BBD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95736335-0C8B-4FDA-8722-E08046339B83}
